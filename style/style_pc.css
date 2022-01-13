@@ -15,7 +15,7 @@ html, body{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #d7e2d4;
+    background-color: #f7ce5b;
     font-family: Arial, Helvetica, sans-serif;
 }
 ul{
@@ -57,7 +57,7 @@ h1{
     color:white;
 }
 .background1{
-    background-color:#E6CCBE;
+    /* background-color:#E6CCBE; */
     padding: 10px 10px 10px 0.2vw;
     vertical-align:center;
 }
@@ -86,7 +86,7 @@ h1{
     border-bottom-right-radius: 2vw;
 }
 .profil{
-    filter: drop-shadow(0px 0px 15px var(--couleur-sombre));
+    /* filter: drop-shadow(0px 0px 15px var(--couleur-sombre)); */
     height:45%;
     padding-top:45vh;
     margin-left: 15%;
@@ -124,8 +124,8 @@ h1{
 }
 .informations{
     
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-left:15px;
     padding-right:15px;
     min-width: 350px;
@@ -134,7 +134,7 @@ h1{
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
-    filter: drop-shadow(0px 0px 15px var(--couleur-sombre));
+    /* filter: drop-shadow(0px 0px 15px var(--couleur-sombre)); */
 }
 #information, #projets{ 
     padding-top: 70px;
