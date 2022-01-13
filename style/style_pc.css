@@ -37,6 +37,10 @@ h1{
     color: #481620;
     text-align:center;
 }
+p{
+    font-size: larger;
+    
+}
 .banniere{
     background-color: var(--couleur-sombre);
     text-align:center;
@@ -126,15 +130,12 @@ h1{
     
     margin-left: 5%;
     margin-right: 5%;
-    padding-left:15px;
-    padding-right:15px;
     min-width: 350px;
     text-align:justify;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
-    /* filter: drop-shadow(0px 0px 15px var(--couleur-sombre)); */
 }
 #information, #projets{ 
     padding-top: 70px;
@@ -142,4 +143,8 @@ h1{
 .titre{
     padding-top:50px;
     padding-bottom:50px;
+}
+.projets{
+    margin-left:5%;
+    margin-right: 5%;
 }
