@@ -101,10 +101,12 @@ p{
     text-align:center;
 }
 .imgtete{
-    width: 20vw;
+    width: 10vw;
+    margin-top: 25px;
     padding-left:min(10px,1vw);
     max-width:150px;
     min-width:8vw;
+    vertical-align: auto;
     /* box-shadow: 2px black; */
     filter: drop-shadow(7px 7px 7px var(--couleur-sombre));
 }
@@ -129,10 +131,8 @@ p{
     grid-row: 1;
 }
 .informations{
-    
     margin-left: 5%;
     margin-right: 5%;
-    
     text-align:justify;
     border-top-left-radius: 2vw;
     border-top-right-radius: 2vw;
@@ -149,4 +149,20 @@ p{
 .projets{
     margin-left:5%;
     margin-right: 5%;
+}
+.flechebas{
+    width: 3vw;
+    padding-top:min(100px,3%);
+    position:absolute;
+    right:15.125%;
+    filter: drop-shadow(0px 0px 3px var(--couleur-sombre));
+}
+.flechehaut{
+    width: 3vw;
+    position:absolute;
+    right:15.125%;
+    padding-top:10vh;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 3px var(--couleur-sombre));
+    
 }
