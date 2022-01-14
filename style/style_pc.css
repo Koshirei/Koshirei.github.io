@@ -20,7 +20,10 @@ body{
 body, h1, p, li{
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
+h3{
+    text-align: center;
+}
+.ulbanniere{
     color: white;
     list-style-type: none;
     
@@ -28,7 +31,7 @@ ul{
 li a:hover{
     font-size: larger;
 }
-li{
+.ulbanniere li{
     display: inline-block;
     margin-right: 5vw;
     padding-left: 5vw;
@@ -39,9 +42,11 @@ h1{
     color: #481620;
     text-align:center;
 }
+h3{
+    padding-bottom: 20px;
+}
 p{
-    font-size: larger;
-    
+    font-size: larger; 
 }
 .banniere{
     background-color: var(--couleur-sombre);
@@ -63,7 +68,6 @@ p{
     color:white;
 }
 .background1{
-    /* background-color:#E6CCBE; */
     padding: 10px 10px 10px 0.2vw;
     vertical-align:center;
 }
@@ -73,15 +77,15 @@ p{
     padding-top: 1px;
     padding-bottom:2px;    
     color:white;
-    
 }
 .delimiter{
-    border-top:var(--couleur-sombre) solid 10px;
+    border-top:var(--couleur-sombre) solid 1vh;
     border-start-start-radius: 5px;
     border-start-end-radius: 5px;
     border-end-start-radius: 5px;
     border-end-end-radius: 5px;
     filter: drop-shadow(0px 0px 7px var(--couleur-sombre));
+    padding-top: 1px;
 }
 .radiustop{
     border-top-left-radius: 2vw;
@@ -92,7 +96,6 @@ p{
     border-bottom-right-radius: 2vw;
 }
 .profil{
-    /* filter: drop-shadow(0px 0px 15px var(--couleur-sombre)); */
     height:45%;
     padding-top:45vh;
     margin-left: 15%;
@@ -102,12 +105,10 @@ p{
 }
 .imgtete{
     width: 10vw;
-    margin-top: 25px;
     padding-left:min(10px,1vw);
     max-width:150px;
     min-width:8vw;
     vertical-align: auto;
-    /* box-shadow: 2px black; */
     filter: drop-shadow(7px 7px 7px var(--couleur-sombre));
 }
 .titrenom{
@@ -139,7 +140,7 @@ p{
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
-#information, #projets{ 
+#information, #projets, #projetrobot, #projetweb{ 
     padding-top: 70px;
 }
 .titre{
@@ -150,19 +151,52 @@ p{
     margin-left:5%;
     margin-right: 5%;
 }
-.flechebas{
-    width: 3vw;
+.flechebas1{
+    width: 5vw;
     padding-top:min(100px,3%);
     position:absolute;
     right:15.125%;
-    filter: drop-shadow(0px 0px 3px var(--couleur-sombre));
 }
 .flechehaut{
-    width: 3vw;
+    width: 4vw;
     position:absolute;
     right:15.125%;
-    padding-top:10vh;
-    z-index: 1;
+    padding-top:5vh;
+}
+.flechebas2{
+    width: 4vw;
+    position:absolute;
+    right:15.125%;
+    margin-bottom:20px;
+}
+.flechebas1, .flechebas2, .flechehaut, .imgdroite, .imggauche{
     filter: drop-shadow(0px 0px 3px var(--couleur-sombre));
+}
+.ulprojet{
+    padding-left: 5%;
+}
+.ulprojet a, h2 , h3{
+    color: #481620;
+}
+.projetcontent{
     
+    text-align: justify;
+}
+.imggauche{
+    max-width: 15vw;
+    display: block;
+    float:left;
+    padding-right: 5%;
+}
+.imgdroite{
+    max-width: 15vw;
+    display: block;
+    float:right;
+    padding-left: 5%;
+}
+.paddingprojet{
+    padding-bottom:200px;
+}
+.petitpaddingprojet{
+    padding-bottom: 100px;
 }

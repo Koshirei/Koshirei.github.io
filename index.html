@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="banniere">
-                <ul><li><a href="#" class="hrefbanniere">Accueil</a></li>
+                <ul class="ulbanniere"><li><a href="#" class="hrefbanniere">Accueil</a></li>
                     <li><a href="#information" class="hrefbanniere">Informations</a></li>
                     <li class="banniereborderdroite"><a href="#projets" class="hrefbanniere">Projets</a></li></ul>
         </div>
@@ -21,28 +21,78 @@
             <div class="contact background2 radiusbot">
                 <p><a href="mailto:axelaxelc@aol.fr">axelaxelc@aol.fr</a> - 06 13 53 01 25 - <a href="https://fr.linkedin.com/in/axel-clause-3ba3201a6">LinkedIn</a> - <a href="fichiers/Axel_Clause_Curriculum_Vitae.pdf" target="_blank">Curriculum Vitae</a></p>
             </div>
-            <a href="#information" class="hrefbanniere"><img src="images/flechebas.png" class="flechebas"></a>
+            <a href="#information" class="hrefbanniere"><img src="images/flechebas.png" class="flechebas1"></a>
         </div>
 
 
         <div id="information"></div>
         <div class="delimiter"> </div>
-        <a href="#" class="hrefbanniere"><img src="images/flechehaut.png" class="flechehaut"></a>
+        
             <h1 class="titre">Informations</h1>
            
             <div class="informations background1">
                 <div class="">
-                    <p>Je suis Axel Clause, étudiant en deuxième année de DUT informatique à l'Université de Lorraine sur le campus universitaire du Saulcy à Metz (57000). J'ai actuellement 19 ans et suis diplômé du Brevet des Collèges ( Uckange - 2017 ) et du Baccalauréat Scientifique Sciences de l'Ingénieur ( Talange - 2022 ). Suite à mes études universitaire, j'ai acquis des connaissances dans plusieurs domaines. Le domaine du WEB grâce à des projets HTML, CSS, PHP, JavaScript. Le domaine des bases de données, avec les langages SQL, PL/SQL, et NoSQL. Le domaine de l'application et logiciel grâce au langage Java. Le domaine des systèmes avec les langages C et C++.</p><br>
+                    <p>Je suis Axel Clause, étudiant en deuxième année de DUT informatique à l'Université de Lorraine sur le campus universitaire du Saulcy à Metz (57000). J'ai actuellement 19 ans et suis diplômé du Brevet des Collèges ( Uckange - 2017 ) et du Baccalauréat Scientifique Sciences de l'Ingénieur ( Talange - 2020 ). Suite à mes études universitaire, j'ai acquis des connaissances dans plusieurs domaines. Le domaine du WEB grâce à des projets HTML, CSS, PHP, JavaScript. Le domaine des bases de données, avec les langages SQL, PL/SQL, et NoSQL. Le domaine de l'application et logiciel grâce au langage Java. Le domaine des systèmes avec les langages C et C++.</p><br>
                     <p>Dans la vie quotidienne, je suis une personne passionnée par la musique, les nouvelles technologies, et la culture asiatique, notamment celle japonaise et sud coréenne. Je passe beaucoup de mon temps libre à lire des séries en anglais, jouer à des jeux vidéos avec des étrangers, et participer à des forums en parlant avec des personnes venant de partout sur le globe à propos de divers sujets.</p><br>
                     <p>Cette aisance avec la lange internationale et la passion pour les technologies m'a rapidement fait choisir le domaine informatique pour poursuivre ma carrière après le collège, car dès le Lycée j'ai accepté de prendre des cours d'informatique de base, et ai pris des cours supplémentaires de robotique.</p><br>
                     <p>Construit en classe de première ( 2019 ) avec des camarades, notre robot de combat sumo, prénommé "TankTerminator" à finit 6ème au tournois TechnoBot. Une version améliorée du combattant aurait du voir le jour en 2020 mais la crise sanitaire à empêcher toute possibilitée de monter sur le podium.</p><br>
                 </div>
+               
             </div>  
-        <div id="projets"></div>
+        <div id="projets"></div><br><br>
         <div class="delimiter"></div>
         <h1 class="titre">Projets</h1>
         <div class="projets">
-            <p>Projets</p>
+            <h2>Sommaire des projets</h2>
+            <ul class="ulprojet"><li><a href="#projetrobot">Robotique</a></li>
+            <li><a href="#projetweb">Web</a></li>
+            <li><a href="#projetapplication">Application</a></li>
+            <li><a href="#projetsysteme">Systeme</a></li></ul>
+            <p style="padding-top: 20px;">Toutes les images sont cliquable pour avoir une meilleur visibilité.</p>
+
+            <div class="projetcontent">
+                <div class="projetrobot" id="projetrobot">
+                    <h3>Robotique</h3>
+                    <a href="images/robot_blueprint.png"> <img src="images/robot_blueprint.png"  class="imggauche"></a>
+                    <a href="images/robot.png"><img src="images/robot.png" class="imgdroite"></a>
+                    <p>L'objectif de ce projet, réalisé en classe de 1ère S au lycée, était de réaliser un robot de combat de type "sumo" pour un tournois inter-lycées. Un match dans ce tournois se déroule dans une petite arène noire délimitée d'une ligne blanche. Le robot gagnant sera celui qui auras poussé son adversaire hors de cette arène. Pour se faire, tout en suivant un règlement, les équipes ont le droit de réaliser leur robot comme ils le souhaitent.</p>
+                    <p>Notre robot avait une forme circulaire, permettant de rapidement trouver l'adversaire, et imprimée à l'aide d'une imprimante 3D. Il était équipé de deux roues motrices faites en siliconnes, et de deux roues libres afin d'avoir des points de supports aux quatres "coins" du robot. Nous avons ajouté deux capteurs ultrasons pour détecter les ennemis , et quatres capteurs thermiques afin de détecter la ligne blanche signifiant l'arrêt du ring. Le programme du robot était codé sur une carte Arduino.</p>
+                </div>
+                <div class="paddingprojet"></div>
+
+
+                <div class="projetweb" id="projetweb">
+                    <h3>Web</h3>
+                    <a href="images/weblycee.png"> <img src="images/weblycee.png" class="imggauche"></a>
+                    <p>Le premier projet HTML, CSS réalisé était pour le lycée. Il était demandé de faire seul un site internet sur un thème au choix mais comportant au moins deux pages supplémentaires d'un index. J'ai choisi le thème des applications mobiles et ait travaillé sur une page parlant de divers jeux mobiles, une pour les réseaux sociaux, et une pour les applications utilitaires, comme Horloge ou Agenda. Malheureusement je n'ai pu retrouvé que une capture d'écran du projet.</p>
+                    <div class="petitpaddingprojet"></div>
+                    
+                    <p>Le second projet Web était un travail collaboratif à quatres avec pour thème imposé: le chocolat. Ce projet devait voir quatre pages en plus de l'index, et posséder deux fichiers CSS commun et cohérent pour toutes les pages, un adapté aux ordinateurs et un adapté aux téléphones. Ma partie portais sur l'histoire du chocolat, et l'adaptation entière du CSS pour mobile.</p>
+                    <div class="petitpaddingprojet"></div>
+                    
+                    <a href="images/webphp1.png"><img src="images/webphp1.png" class="imgdroite"></a>
+                    <a href="images/webphp2.png"><img src="images/webphp2.png" class="imggauche"></a>
+                    <p>Le troisième projet était un travail collaboratif à deux mélangeant HTML, CSS , SQL, PHP, et peu de JavaScript. Le but était de créé un semblant de blog avec un système de connexion. L'utilisateur pouvait lire des postes, lire des commentaires. Après création de compte et connection il recevait également le droit de poster à son tour des postes, qui s'affichaient sur la page d'accueil, et des commentaires pour chaque poste. Chaque utilisateur connecté pouvait accéder à son profil et modifier ses données personnelles telles que son pseudo, email, mot de passe, description de profil, photo de profil.</p>
+                </div>
+                <div class="paddingprojet"></div>
+
+
+                <div class="projetapplication" id="projetapplication">
+                    <h3>Application</h3>
+                    <p>Projet en cours d'Interface Homme Machine ( IHM - logiciel Lazarus - langage Pascal ). Réalisation d'un logiciel executable permettant la gestion d'adhérents à un club de lecture</p>
+                    <div class="petitpaddingprojet"></div>
+                    <p>Projet en Java réalisant la gestion de clients dans une vidéothèque. Le logiciel pouvait enregistrer les emprunts de livres par clients, afficher quel client à emprunter quel livre, donner des informations sur l'emprunt tel que la data d'emprunt, date de rendu, prix de la location.</p>
+                    <div class="petitpaddingprojet"></div>
+                    <p>Projet Java utilisant les méthodes Test Driven Development ( TDD ) et DAO permettant de gérer les abonnements de revues d'une liste de clients sous deux différents types de bases de données, SQL et listememoire</p>
+                </div>
+                <div class="paddingprojet"></div>
+
+
+                <div class="projetsysteme" id="projetsysteme">
+                    <h3>Système</h3>
+                    <p>Projet en Assembleur x80/86 réalisant l'addition, soustraction, multiplication et division entre deux chiffres compris chacun entre 0 et 9999.</p>
+                </div>
+            </div>
         </div>
         
     </body>
