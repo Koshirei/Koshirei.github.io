@@ -44,6 +44,7 @@ h1{
 }
 h3{
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 p{
     font-size: larger; 
@@ -140,7 +141,7 @@ p{
     border-bottom-left-radius: 2vw;
     border-bottom-right-radius: 2vw;
 }
-#information, #projets, #projetrobot, #projetweb{ 
+#information, #projets, #projetrobot, #projetweb, #projetapplication, #projetsysteme{ 
     padding-top: 70px;
 }
 .titre{
