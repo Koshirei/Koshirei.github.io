@@ -1,116 +1,155 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Axel Clause</title>
-        <link rel="stylesheet" href="style/style_pc.css">
-    </head>
-    <body>
-        <div class="banniere">
-                <ul class="ulbanniere"><li><a href="#" class="hrefbanniere">Accueil</a></li>
-                    <li><a href="#information" class="hrefbanniere">Informations</a></li>
-                    <li class="banniereborderdroite"><a href="#projets" class="hrefbanniere">Projets</a></li></ul>
-        </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <div class="profil">
-            <div class="background1 wrapper1 radiustop">
-                <div class="wr1img"><img src="images/photo_tete.png" class="imgtete"></div>
-                <div class="wr1nom"><h1 class="titrenom">Axel Clause</h1></div>
-            </div>
-            <div class="contact background2 radiusbot">
-                <p><a href="mailto:axelaxelc@aol.fr">axelaxelc@aol.fr</a> - 06 13 53 01 25 - <a href="https://fr.linkedin.com/in/axel-clause-3ba3201a6">LinkedIn</a> - <a href="fichiers/Axel_Clause_Curriculum_Vitae.pdf" target="_blank">Curriculum Vitae</a></p>
-            </div>
-            
-        </div>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+    <link href="./style/style_pc.less" rel="stylesheet/less">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
 
-        <div id="information"></div>
-        <div class="delimiter"> </div>
-        
-            <h1 class="titre">Informations</h1>
-           
-            <div class="informations background1">
-                <div class="">
-                    <p>Je suis Axel Clause, étudiant en deuxième année de DUT informatique à l'Université de Lorraine sur le campus universitaire du Saulcy à Metz (57000). J'ai actuellement 19 ans et suis diplômé du Brevet des Collèges ( Uckange - 2017 ) et du Baccalauréat Scientifique Sciences de l'Ingénieur ( Talange - 2020 ). Suite à mes études universitaire, j'ai acquis des connaissances dans plusieurs domaines comme le domaine du WEB grâce à des projets HTML, CSS, PHP, JavaScript, le domaine des bases de données, avec les langages SQL, PL/SQL, et NoSQL, le domaine de l'application et logiciel grâce au langage Java, et le domaine des systèmes avec les langages C et C++.</p><br>
-                    <p>Dans la vie quotidienne, je suis une personne passionnée par la musique, les nouvelles technologies, et la culture asiatique, notamment celle japonaise et sud coréenne. Je passe beaucoup de mon temps libre à lire des séries en anglais, jouer à des jeux vidéos avec des étrangers, et participer à des forums en parlant avec des personnes venant de partout sur le globe à propos de divers sujets.</p><br>
-                    <p>Cette aisance avec la lange internationale et la passion pour les technologies m'a rapidement fait choisir le domaine informatique pour poursuivre ma carrière après le collège, car dès le Lycée j'ai accepté de prendre des cours d'informatique de base, et ai pris des cours supplémentaires de robotique.</p><br>
-                    <p>Construit en classe de première ( 2019 ) avec des camarades, notre robot de combat sumo, prénommé "TankTerminator" à finit 6ème au tournois TechnoBot. Une version améliorée du combattant aurait dû voir le jour en 2020 mais la crise sanitaire à empêcher toute possibilitée de monter sur le podium.</p><br>
-                </div>
-               
-            </div>  
-        <div id="projets"></div><br><br>
-        <div class="delimiter"></div>
-        <h1 class="titre">Projets</h1>
-        <div class="projets">
-            <h2>Sommaire des projets</h2>
-            <ul class="ulprojet"><li><a href="#projetrobot">Robotique</a></li>
-            <li><a href="#projetweb">Web</a></li>
-            <li><a href="#projetapplication">Application</a></li>
-            <li><a href="#projetsysteme">Système</a></li></ul>
-            <p style="padding-top: 20px;">Toutes les images sont cliquable pour avoir une meilleure visibilité.</p>
+    <title>CLAUSE Axel</title>
+</head>
 
-            <div class="projetcontent">
-                <div class="projetrobot" id="projetrobot">
-                    <h3>Robotique</h3>
-                    <a href="images/robot_blueprint.png"> <img src="images/robot_blueprint.png"  class="imggauche"></a>
-                    <a href="images/robot.png"><img src="images/robot.png" class="imgdroite"></a>
-                    <p>L'objectif de ce projet, réalisé en classe de 1ère S au Lycée, était de réaliser un robot de combat de type "sumo" pour un tournois inter-Lycées. Un match dans ce tournois se déroule dans une petite arène noire délimitée d'une ligne blanche. Le robot gagnant est celui qui a poussé son adversaire hors de cette arène. Pour se faire, tout en suivant un règlement, les équipes ont le droit de réaliser leur robot comme ils le souhaitent.</p>
-                    <p>Notre robot avait une forme circulaire, permettant de rapidement trouver l'adversaire, dont le chassis était imprimé à l'aide d'une imprimante 3D. Il était équipé de deux roues motrices faites en siliconne, et de deux roues libres afin d'avoir des points de supports aux quatre "coins" du robot. Nous avons ajouté deux capteurs ultrasons pour détecter les ennemis , et quatre capteurs thermiques afin de détecter la ligne blanche signifiant l'arrêt du ring. Le programme du robot était codé sur une carte Arduino.</p>
-                </div>
-                <div class="paddingprojet"></div>
-
-
-                <div class="projetweb" id="projetweb">
-                    <h3>Web</h3>
-                    <a href="images/weblycee.png"> <img src="images/weblycee.png" class="imggauche"></a>
-                    <p>Le premier projet HTML, CSS réalisé était pour le Lycée. Il était demandé de faire seul un site internet sur un thème au choix mais comportant au moins deux pages supplémentaires d'un index. J'ai choisi le thème des applications mobiles et ai travaillé sur une page parlant de divers jeux mobiles, une pour les réseaux sociaux, et une pour les applications utilitaires, comme Horloge ou Agenda.</p>
-                    <div class="petitpaddingprojet"></div>
-                    
-                    <p>Le second projet Web était un travail collaboratif à quatre sur cinq semaines avec pour thème imposé: le chocolat. Ce projet devait voir quatre pages en plus de l'index, et posséder deux fichiers CSS communs et cohérents pour toutes les pages, un adapté aux ordinateurs et un adapté aux téléphones. Ma partie portais sur l'histoire du chocolat, et l'adaptation entière du CSS pour mobile.</p>
-                    <div class="petitpaddingprojet"></div>
-                    
-                    <a href="images/webgestproj.png"> <img src="images/webgestproj.png" class="imgdroite"> </a>
-                    <p>Le troisième projet web, developpé à cinq sur une durée de huit semaines, consistait a réaliser un site internet prototype pouvant potentiellement être utilisé comme nouveau design pour le site internet du département informatique de Metz.</p>
-                    <div class="petitpaddingprojet"></div>
-                    <div class="petitpaddingprojet"></div>
-                    <div class="petitpaddingprojet"></div>
-
-
-                    <a href="images/webphp1.png"><img src="images/webphp1.png" class="imgdroite"></a>
-                    <a href="images/webphp2.png"><img src="images/webphp2.png" class="imggauche"></a>
-                    <p>Le quatrième projet était un travail collaboratif à deux mélangeant HTML, CSS , SQL, PHP, et peu de JavaScript. Le but était de créé un semblant de blog avec un système de connexion. L'utilisateur pouvait lire des posts et lire des commentaires. Après création de compte et connection il recevait également le droit de mettre en ligne à son tour des posts, qui s'affichaient sur la page d'accueil, et d'écrire des commentaires sous chaque post. Chaque utilisateur connecté pouvait accéder à son profil et modifier ses données personnelles telles que son pseudo, email, mot de passe, description de profil, photo de profil.</p>
-                </div>
-                <div class="paddingprojet"></div>
-
-
-                <div class="projetapplication" id="projetapplication">
-                    <h3>Application</h3>
-                    <p>Projet en cours d'Interface Homme Machine ( IHM - logiciel Lazarus - langage Pascal ). Réalisation d'un logiciel exécutable permettant la gestion d'adhérents à un club de lecture.</p>
-                    <div class="petitpaddingprojet"></div>
-                    <p>Projet en Java à deux sur dix semaines réalisant la gestion de clients dans une vidéothèque. Le logiciel pouvait enregistrer les emprunts de livres par clients, afficher quel client à loué quel livre, donner des informations sur la transaction tel que la date d'emprunt, date de rendu, prix de la location.</p>
-                    <div class="petitpaddingprojet"></div>
-                    <p>Projet Java réalisé en groupe de deux sur huit semaines utilisant les méthodes Test Driven Development ( TDD ) et DAO permettant de gérer les abonnements de revues d'une liste de clients sous deux différents types de bases de données, SQL et listememoire</p>
-                </div>
-                <div class="paddingprojet"></div>
-
-
-                <div class="projetsysteme" id="projetsysteme">
-                    <h3>Système</h3>
-                    <p>Projet en Assembleur x80/86 réalisant l'addition, soustraction, multiplication et division entre deux chiffres compris chacun entre 0 et 9999.</p>
-                    <div class="petitpaddingprojet"></div>
-                    <a href="images/Nim.png"> <img src="images/Nim.png" class="imgdroite"></a>
-                    <p>Projet en langage C, réalisation d'un jeu de Nim à 3 sur une période de 6 semaines, un jeu de stratégie pur ou le joueur défiait un ordinateur sur une grille de taille fixe. Les seuls mouvements possible étaient un déplacement de une ou deux cases vers la droite ou le bas. Le premier atteignant la dernière case remporte la victoire.</p>
-                    <div class="petitpaddingprojet"></div>
-                    <p>Projet en langage C, réalisation d'un jeu du pendu entre plusieurs clients et un serveur. Le serveur doit pouvoir gérer une partie par client. Le client doit trouver un mot choisis aléatoirement à l'aide d'entrées de lettres une à une.</p>
-                </div>
+<body>
+    <header>work in progress
+        <div id="header_tabs">
+            <div class="tab main">home</div>
+            <div class="tab projects">
+                <a href="#main-projects">
+                    projects
+                </a>
             </div>
         </div>
+    </header>
+    <div id="main">
+        <div id="main-contact">
+            <div id="main-contact-content" class="content">
+                <div id="contact-content">
+                    <div id="menu_wrapper_1">
+                        <img src="images/head.png" alt="" class="menu_flex_1">
+                        <div class="menu_flex_1">
+                            <h1>CLAUSE Axel</h1>
+                            <p>Etudiant en Informatique.</p>
+                            <p>Licence Pro. Développeur Web et Application Mobiles pour le Commerce Electronique.</p>
+                            <p>20 ans</p>
+                            <p>57 525, Talange</p>
+                        </div>
+                    </div>
+                    <div id="contacts">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>+33 6 13 53 01 25</td>
+                                    <td>•</td>
+                                    <td>
+                                        <a href="mailto:axelaxelc@aol.fr">
+                                            axelaxelc@aol.fr
+                                        </a><br />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://github.com/Koshirei">
+                                            GitHub
+                                        </a>
+                                    </td>
+                                    <td>•</td>
+                                    <td>
+                                        <a href="https://www.linkedin.com/in/axel-clause/">
+                                            LinkedIn
+                                        </a>
+                                    </td>
+                                </tr>
 
+                            </tbody>
+                        </table>
+                        <a href="fichiers/CV_Clause_Axel.pdf" target="_blank">
+                            Curriculum Vitae
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="separator"></div>
+            <div id="main-projects">
+                <div class="content" id="main-project-content">
+                    <div id="projets-content">
+                        <h1>Projets</h1>
 
-        <div class="bannierebas">
-            <a href="#">Retour en haut de page</a>
+                        <div class="collapse_main">
+                            <div class="collapse_title" id="collapse_universitaire" data-bs-toggle="collapse"
+                                href="#collapse_universitaire_content">
+                                Projets Universitaire
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </div>
+                            <div id="collapse_universitaire_content" class="collapse show">
+                                <h2>Projets Universitaire</h2>
+                                <h3>PHP :</h3>
+                                <p>
+                                    Réalisation d'un forum entièrement en PHP, relié à une base de données relationnelle
+                                    pour stocker les données utilisateurs et contenu du forum. Système de profil
+                                    complexe avec pseudo, photo de profil, description, et mot de passe protégé dans la
+                                    BDD via fonctions de hachage. Système de thèmes clair et sombre
+                                </p>
+                                <div id="carouselPHP" class="carousel slide" data-bs-ride="true">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselPHP" data-bs-slide-to="0"
+                                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselPHP" data-bs-slide-to="1"
+                                            aria-label="Slide 2"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <a href="images/webphp2.png" target="_blank">
+                                            <img src="images/webphp2.png" class="d-block w-100"
+                                                alt="Screenshot d'un poste du forum">
+                                            </a>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <a href="images/webphp1.png" target="_blank">
+                                                <img src="images/webphp1.png" class="d-block w-100"
+                                                    alt="Screenshot de la page de profil">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPHP"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPHP"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-    </body>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="js/svg_rotation.js"></script>
+</body>
+
 </html>
