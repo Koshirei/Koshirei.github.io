@@ -13,7 +13,9 @@ const MENUS = qsa(".collapse_title");
 //on rotate le ">" quand on click sur un menu defilant
 MENUS.forEach((menu)=>{
     menu.addEventListener("click",(e)=>{
-        let svg = e.target.children[0];
+
+        let svg = menu.children[0];
+        console.log(menu.children)
 
         if (svg.style.transform === "" || svg.style.transform === "rotate(0deg)"){
             svg.style.transform = "rotate(90deg)";
